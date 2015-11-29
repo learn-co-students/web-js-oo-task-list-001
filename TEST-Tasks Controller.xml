@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="9" errors="0" failures="0" time="0.022" timestamp="2015-11-28T20:43:46">
+		<testcase classname="Tasks Controller" name="creating a new TasksController should have a $addTaskForm property that holds a selected element with the id &amp;apos;#add_task&amp;apos;" time="0.002">
+		</testcase>
+		<testcase classname="Tasks Controller" name="creating a new TasksController should have a $taskDescriptionInput property that holds a selected element with the id &amp;apos;#task_description&amp;apos;" time="0.002">
+		</testcase>
+		<testcase classname="Tasks Controller" name="creating a new TasksController should have a $selectListMenu property that holds a selected element with the id &amp;apos;#select_list&amp;apos;" time="0.002">
+		</testcase>
+		<testcase classname="Tasks Controller" name="creating a new TasksController should have a $taskPriorityInput property that holds a selected element with the id &amp;apos;#task_priority&amp;apos;" time="0.002">
+		</testcase>
+		<testcase classname="Tasks Controller" name="creating a new TasksController should have a $wrapper property that holds a selected element with the id &amp;apos;#wrapper&amp;apos;" time="0.001">
+		</testcase>
+		<testcase classname="Tasks Controller" name="#init (note you can always use #init as a delegator...) creating a new task via a listener on the new tasks form should create a new task" time="0.004">
+		</testcase>
+		<testcase classname="Tasks Controller" name="#init (note you can always use #init as a delegator...) creating a new task via a listener on the new tasks form should add a task to the correct list" time="0">
+			<skipped />
+		</testcase>
+		<testcase classname="Tasks Controller" name="#init (note you can always use #init as a delegator...) creating a new task via a listener on the new tasks form Deleting tasks (using a live event listener) should delete only that one task" time="0">
+			<skipped />
+		</testcase>
+		<testcase classname="Tasks Controller" name="#init (note you can always use #init as a delegator...) creating a new task via a listener on the new tasks form Deleting tasks (using a live event listener) should remove the task from its list.tasks property and replace it with null" time="0.004">
+		</testcase>
+	</testsuite>
+</testsuites>
+

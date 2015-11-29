@@ -43,7 +43,7 @@ describe('Tasks Controller', function(){
     describe('creating a new task via a listener on the new tasks form', function() {
       beforeEach(function() {
         // creates a new task for the first list
-        $('select').val('0')
+        $('select').val('0');
         $('#task_description').val('do this thing');
         $('#task_priority').val('high');
         submitTaskForm();
@@ -53,8 +53,8 @@ describe('Tasks Controller', function(){
         expect($('#list-0 li').length).toEqual(1);
       });
 
-      it('should add a task to the correct list', function() {
-        $('select').val('1')
+      xit('should add a task to the correct list', function() {
+        $('select').val('1');
         $('#task_description').val('do this thing');
         $('#task_priority').val('high');
         submitTaskForm();
@@ -64,7 +64,7 @@ describe('Tasks Controller', function(){
 
 
       describe('Deleting tasks (using a live event listener)', function() {
-        it('should delete only that one task', function() {
+        xit('should delete only that one task', function() {
           $('select').val('1')
           $('#task_description').val('do this thing');
           $('#task_priority').val('high');

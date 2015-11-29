@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="9" errors="0" failures="0" time="0.042" timestamp="2015-11-28T20:43:46">
+		<testcase classname="Lists Controller" name="creating a new List Controller should have a $addListForm property that holds a selected element with the id &amp;apos;#add_list&amp;apos;" time="0.002">
+		</testcase>
+		<testcase classname="Lists Controller" name="creating a new List Controller should have a $listTitleInput property that holds a selected element with the id &amp;apos;#list_title&amp;apos;" time="0.001">
+		</testcase>
+		<testcase classname="Lists Controller" name="creating a new List Controller should have a $selectListMenu property that holds a selected element with the id &amp;apos;#select_list&amp;apos;" time="0.001">
+		</testcase>
+		<testcase classname="Lists Controller" name="creating a new List Controller should have a $addTaskForm property that holds a selected element with the id &amp;apos;#add_task&amp;apos;" time="0.001">
+		</testcase>
+		<testcase classname="Lists Controller" name="creating a new List Controller should have a $wrapper property that holds a selected element with the id &amp;apos;#wrapper&amp;apos;" time="0.001">
+		</testcase>
+		<testcase classname="Lists Controller" name="#init (note you can always use #init as a delegator...) should hide the add task form" time="0.008">
+		</testcase>
+		<testcase classname="Lists Controller" name="#init (note you can always use #init as a delegator...) should display the add task form when a list is created" time="0.013">
+		</testcase>
+		<testcase classname="Lists Controller" name="#init (note you can always use #init as a delegator...) should have added listener for creating new lists" time="0.006">
+		</testcase>
+		<testcase classname="Lists Controller" name="#init (note you can always use #init as a delegator...) should have added a live event listener for deleting lists" time="0.007">
+		</testcase>
+	</testsuite>
+</testsuites>
+

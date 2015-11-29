@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="7" errors="0" failures="0" time="0.011" timestamp="2015-11-28T20:43:46">
+		<testcase classname="Task Model" name="Instance Properties Properties from initialization should take a description when the task is created" time="0.002">
+		</testcase>
+		<testcase classname="Task Model" name="Instance Properties Properties from initialization should be assigned a priority when a new Task is created" time="0">
+		</testcase>
+		<testcase classname="Task Model" name="Instance Properties Properties from initialization should be assigned to a list when a new Task is created" time="0">
+		</testcase>
+		<testcase classname="Task Model" name="Instance Properties Properties from initialization should add itself to the list&amp;apos;s tasks array" time="0.001">
+		</testcase>
+		<testcase classname="Task Model" name="Instance Properties Properties from initialization should be assigned an autoincremented id when a new Task is created based on the length of the list.tasks array" time="0">
+		</testcase>
+		<testcase classname="Task Model" name="Instance Properties creating new task elements the el method should create a string representing the li" time="0.001">
+		</testcase>
+		<testcase classname="Task Model" name="Instance Properties creating new task elements the build method should append the el string the tasks corresponding list" time="0.003">
+		</testcase>
+	</testsuite>
+</testsuites>
+
