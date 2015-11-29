@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="8" errors="0" failures="0" time="0.007" timestamp="2015-11-28T20:43:46">
+		<testcase classname="List Model" name="Instance Properties Properties from initialization should have a title when a new List is created" time="0.001">
+		</testcase>
+		<testcase classname="List Model" name="Instance Properties Properties from initialization should be assigned an autoincrementing id when a new List is created" time="0">
+		</testcase>
+		<testcase classname="List Model" name="Instance Properties Properties from initialization should be assigned an empty array when a new List is created" time="0">
+		</testcase>
+		<testcase classname="List Model" name="Instance Properties creating new list elements the listEl method should create a string representing the lists&amp;apos;s div" time="0.001">
+		</testcase>
+		<testcase classname="List Model" name="Instance Properties creating new list elements the listEl method should create a string representing the lists&amp;apos;s option" time="0">
+		</testcase>
+		<testcase classname="List Model" name="Instance Properties creating new list elements the build method should append the div and option strings the lists section and select elements" time="0.001">
+		</testcase>
+		<testcase classname="List Model" name="Constructor Properties should have an &amp;quot;all&amp;quot; property to hold instances of each list created" time="0.001">
+		</testcase>
+		<testcase classname="List Model" name="Constructor Properties should keep track of all instances in an all property" time="0">
+		</testcase>
+	</testsuite>
+</testsuites>
+
